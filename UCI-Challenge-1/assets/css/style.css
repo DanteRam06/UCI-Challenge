@@ -1,0 +1,235 @@
+/* Universal element worked onto to the entire page, border boxing allows for all sections to be displayed neatly, with minimal margins */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Universal element that sets the backgound of the entire page white*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Class element that sets the background blue, sets the header white changes the font and allows for space around the header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Class header h1 create sInline-block allows for listed items to display horizontal and font-size changes to 48px*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Class worked on Seo of header changing the color to grey*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Class apllies to list in the header places it to the right changes font and font size and adds padding and margin*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*No list type apllied to list in header*/
+.header div ul {
+    list-style-type: none;
+}
+
+/*Class allows for margin*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Changes the lists font color*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Changes the font size of all paragraphs*/
+p {
+    font-size: 16px;
+}
+
+/*Class appllied to first image displayed on the top page, sets the height and width the take up the page allows for margin and centers on the page*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Applies to search engine optimization image dislaying it to the left and adding margin*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Applies to online reputation managemnent image displayin it right and adding margins*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Applies to all sections setting width and display of content*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Applies to the section on the right setting the display of the section, height, width font and background*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*Applies to lead generation header changing color and adding margin*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Applies to brand awareness header changing color and adding margin*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Applies to cost management header changing color and adding margin*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Applies to lead generation header centering and adding margin*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Applies to brand management header centering and adding margin*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Applies to cost management header centering and adding margin*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Applies to lead image setting margin to top and bottom*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Aplies to brand image setting margin to top and bottom*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Applies to cost image setting margin to top and bottom*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Applies to search engine section setting background color, font, font color, height, padding and margin*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Applies to online reputation section setting background color, font, font color, height, padding and margin*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Applies to social media section setting background color, font, font color, height, padding and margin*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Sets search engine image to 200px height*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/*Sets online image to 200px height*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/*Sets social media image to 200px height*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*Sets the search engine font to be larger and adds margin*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Sets online reputation font to be larger and adds margin*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Sets social media font to be larger and adds margin*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Applies to footer on the bottom page setting padding, aligning it and applying font*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Sets second header to be smaller than the footer*/
+.footer h2 {
+    font-size: 20px;
+}
